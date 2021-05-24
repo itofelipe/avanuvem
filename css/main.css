@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+
+a {
+  font-family: 'Baloo Bhaina', cursive;
+  font-size: 15px;
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+button {
+    -webkit-transition: all 200ms ease-in;
+    -moz-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -o-transition: all 200ms ease-in;
+    transition: all 200ms ease-in;
+}
+
+p {
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+h4 {
+    color: #1c559d;    
+    margin-bottom: -20px;
+    margin-top: 0px;
+}
+
+h1 {
+    color: #bfc0c1;
+}
+
+
+/******************
+      HEADER 
+******************/
+
+ol, ul {
+    margin-top: -9px;
+    margin-bottom: 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #1c559d;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #888;
+    background-color: transparent;
+}
+
+.navbar-brand>img {
+    display: block;
+    margin-top: -15px;
+    width: 75%;
+}
+
+.nav>li>a {
+    padding: 0px;
+    padding-top: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.nav-social li a {
+    font-size: 17px;
+    color: #fff;
+    margin-left: 16px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-social li a:hover {
+    color: #d2d2d2;
+}
+
+.nav-social {
+    padding-top: 15px;
+    background-color: #1c559d;
+}
+
+nav.navbar.navbar-inverse {
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background: #fff;
+}
+
+.section-slide {
+    margin-top: -20px;
+    background: #000;
+}
+
+.item {
+    height: 450px;
+    width: 102%;
+}
+
+.conteudo-slide {
+    position: absolute;
+}
+
+.conteudo-slide {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+}
+
+.conteudo-slide h1 {
+    color: #ffffff;
+    font-size: 42px;
+}
+
+.conteudo-slide button a {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.conteudo-slide button {
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: #1c559d;
+    border: none;
+    border-radius: 5px;
+}
+
+.conteudo-slide button:hover {
+    background: #063877;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    left: 19px;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #0c2065;
+    background-color: transparent;
+}
+
+.dropdown-menu>li>a {
+    font-size: 13px;
+}
+
+
+
+/******************
+      SERVICOS
+******************/
+
+.section-servicos {
+    padding-bottom: 50px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.section-servicos .col-md-3 {
+    background-color: #efefef;
+    border-radius: 15px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 220px;
+    width: 23%;
+    margin: 10px;
+
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+}
+
+.section-servicos .col-md-3:hover {
+    background: #1c559d;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+    box-shadow: 10px 10px 20px #908f8f;
+}
+
+.section-servicos .col-md-3 i {
+    font-size: 80px;
+    color: #1c559d;
+}
+
+.section-servicos .col-md-3:hover i {
+    color: #fff;
+    -webkit-transition: all 600ms ease-in;
+    -moz-transition: all 600ms ease-in;
+    -ms-transition: all 600ms ease-in;
+    -o-transition: all 600ms ease-in;
+    transition: all 600ms ease-in;
+}
+
+.section-servicos p {
+    font-size: 16px;
+    color: #1c559d;
+    padding-top: 15px;
+}
+
+.section-servicos .col-md-3:hover p {
+    color: #fff;
+    -webkit-transition: all 600ms ease-in;
+    -moz-transition: all 600ms ease-in;
+    -ms-transition: all 600ms ease-in;
+    -o-transition: all 600ms ease-in;
+    transition: all 600ms ease-in;
+}
+
+.divi1{
+  background-image: url(../images/divi1.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+  height: 60%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+
+/******************
+      PRODUTOS 
+******************/
+
+.section-produtos {
+    padding-bottom: 50px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.section-empresa{
+  background-image: url(../images/empresa.jpg);
+  background-repeat: no-repeat;
+  background-attachment : fixed;
+  background-position   : top center;
+  background-size       : cover;
+  position: relative;
+  width: 100%;
+  height: 60%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.bg-transparente p {
+    text-align: left;
+}
+
+.bg-transparente {
+    text-align: center;
+    content: '\A';
+    position: sticky;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    background: rgba(0,0,0,0.6);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    color: #bfc0c1;
+}
+
+
+
+/******************
+      CONTATO 
+******************/
+
+.section-contato {
+    padding-bottom: 50px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+
+
+/******************
+      FOOTER 
+******************/
+
+.section-empresas .col-md-3 {
+    background: #000819;
+    border: 5px solid #000b20;
+}
+
+.section-empresas {
+    background: #000b20;
+    color: #bfc0c1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-empresas h3 {
+    color: #09366f;
+}
+
+.col-md-6 p {
+    margin-top: 13px;
+}
+
+.col-md-6.mantis p {
+    margin-top: 13px;
+}
+
+.col-md-6.mantis {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mantis img {
+    width: 90px;
+    height: 34px;
+    margin-top: 4px;
+}
+
+section.credito {
+    padding-top: 4px;
+    padding-bottom: 0px;
+}
+
+
+
+/******************
+      MOBILE 
+******************/
+@media screen and (max-width: 768px) {
+
+ 
+}

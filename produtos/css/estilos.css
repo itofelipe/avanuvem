@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{font-family:"segoeLight";}
+
+@font-face {
+font-family: "segoeLight";
+src: url(../fonts/SegoeL.ttf) format("truetype");
+}
+
+
+
+
+.navbar{
+	 background:#3f3f3f;
+	 background-image: -webkit-linear-gradient(top, #696969 0%,#3f3f3f 100%);
+	};
